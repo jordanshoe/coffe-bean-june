@@ -26,13 +26,13 @@ p,li{
 
 /* header area */
 .nav{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 1em auto;
     overflow: auto;
 }
 .nav h1{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     float: left;
     text-transform: uppercase;
 }
@@ -40,8 +40,11 @@ p,li{
     text-decoration: none;
     color: #96746b;
 }
+.nav h1 a:hover{
+    color: #19100f;
+}
 .nav ul{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     float: right;
     margin-top: 1em;
     text-transform: capitalize;
@@ -58,7 +61,7 @@ p,li{
 
 /* banner area */
 .banner{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 670px;
     background-image: url(../images/banner-bg.jpg);
     background-size: cover;
@@ -67,7 +70,7 @@ p,li{
     position: relative;
 }
 .banner-text{
-    border: 2px dashed white;
+    /* border: 2px dashed white; */
     position: absolute;
     left: 10%;
     top: 50%;
@@ -100,13 +103,13 @@ p,li{
 
 /* ads area 1 */
 .ads{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 4em auto;
     overflow: auto;
 }
 .ads-items{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     height: 350px;
     float: left;
     width: 48.5%;
@@ -126,7 +129,7 @@ p,li{
     background-position: center center;
 }
 .ads-text{
-    border:2px dashed green ;
+    /* border:2px dashed green ; */
     position: absolute;
     left: 8%;
     top: 50%;
@@ -153,12 +156,12 @@ p,li{
 
 /* merchandise sale */
 .merch{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 4em auto;
 }
 .section-header{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     text-align: center;
 }
 .section-header span{
@@ -179,12 +182,12 @@ p,li{
     margin: auto;
 }
 .merch-gallery{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin-top: 2em;
     overflow: auto;
 }
 .merch-items{
-    border: 2px dashed green;
+    /* border: 2px dashed green; */
     float: left;
     width: 24.25%;
     margin-right: 1%;
@@ -290,17 +293,17 @@ p,li{
 }
 /* reservation ara */
 div.reservation{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85%;
     margin: 4em auto;
 }
 form{
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     margin-top: 2em;
     overflow: auto;
 }
 .form-group{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     float: left;
     width: 49.5%;
     height: 600px;
@@ -380,13 +383,13 @@ form input[type=submit]{
     padding: 2em 0;
 }
 .footer-contents{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 85%;
     margin: auto;
     overflow: hidden;
 }
 .footer-widgets{
-    border: 2px dashed blue;
+    /* border: 2px dashed blue; */
     float: left;
     width: 24.25%;
     margin-right: 1%;
