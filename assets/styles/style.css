@@ -447,3 +447,24 @@ form input[type=submit]{
 .social-widgets img{
     width: 1.5em;
 }
+
+/* responsive design code */
+/* 
+    max-width =  if the screen size reach to 0-768px apply this code
+*/
+@media screen and (max-width:768px){
+    .ads-items{
+        float: none;
+        width: 100%;
+    }
+    .ads-item1{
+        margin-bottom: 3%;
+    }
+    .merch-items{
+        float: left;
+        width: 49.5%;
+    }
+    .merch-items:nth-child(2),.merch-items:nth-child(6){
+        margin-right:0 ;
+    }
+}
